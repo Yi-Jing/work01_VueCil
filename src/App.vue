@@ -69,4 +69,5 @@ export default {
 }
 </script>
 
-<style></style>
+<style src="@/assets/css/normalize.css"></style>
+<style src="@/assets/css/style.css"></style>
