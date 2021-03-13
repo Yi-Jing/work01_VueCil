@@ -10,6 +10,6 @@ git init //因為dist資料夾預設是被ignore的，因此在進入dist資料�
 git add -A
 git commit -m 'deploy'
 # 部署到 https://github.com/Yi-Jing/work01_VueCil.git 分支為 gh-pages
-git push -f https://github.com/Yi-Jing/work01_VueCil.git master:gh-pages
+git push -f https://github.com/Yi-Jing/work01_VueCil.git main:gh-pages
 //將dist資料夾中的內容推送至遠端work01_VueCil的gh-pages分支中，並強制無條件將舊有的內容取代成目前的內容（指令 git push -f)
 cd -
